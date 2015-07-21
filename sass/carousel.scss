@@ -1,0 +1,116 @@
+@import "../../libs/normalize.scss"; 
+@import "../../FU-static/foundation.min.scss";
+@import "../../FU-static/variables.scss";
+@import "../../FU-static/mixins.scss";
+
+/* 1px and greater */
+@media only screen and (min-width: 1px) {
+
+  .frutiger-light {
+    font-family: 'FrutigerLTW01-45Light', sans-serif; 
+  }
+
+  a {
+    text-decoration: none;
+    color: $purple;
+  }
+  .button, button {
+      text-align: center;
+      margin: 0 3px;
+      padding: 0.4em 0.8em;
+  }
+
+  .carousel-container {
+    max-width: 600px;
+    background-color: $superlightgrey;
+    margin:10px;
+    padding:20px;
+    /* Engagement Carousel */
+    .carousel {
+      position: relative;
+      overflow: hidden;
+      width:100%;
+      white-space: nowrap;
+      line-height: 0;
+      font-size: 0px;
+      padding: 0;
+      margin: 0;
+      .slide {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width:100%;
+        min-width: 100%;
+        max-width: 100%;
+        line-height: 0;
+        overflow: hidden;
+        div {
+          position: relative;
+          width:100%;
+          min-width: 100%;
+          max-width: 100%;
+          line-height: 0;
+          overflow: hidden;
+          img {
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            line-height: 0;
+            vertical-align: top;
+          }
+          .slide-heading {
+            position: absolute;
+            margin:0;
+            padding: 10px;
+            width: 100%;
+            background-color: $grey;
+            background-color: rgba($grey, 0.6);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+            bottom: 0;
+            h2 {
+              margin:0;
+              padding: 10px;
+              font-size: 16px;
+              color: white;
+              white-space: normal;
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+        .slide-text {
+          position: relative;
+          width: 100%;
+          height: auto;
+          line-height: normal;
+          p {
+            margin: 5px;
+            padding: 0;
+            font-size: 14px;
+            white-space: normal;
+          }
+        }
+      }
+    }
+    .carousel-nav {
+      margin: 10px auto 0 auto;
+      text-align: center;
+      .button {
+        min-height: 28px;
+      }
+      a {
+        @include border-radius(4px);
+        font-weight: 100;
+        font-size: 20px;
+        border:none;
+      }
+    }
+
+    input[type=radio] + label,
+    input[type=checkbox] + label {
+      display:inline !important;
+    }
+  }
+}
