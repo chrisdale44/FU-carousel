@@ -1,13 +1,10 @@
-@import "../../libs/normalize.scss"; 
-@import "../../FU-static/foundation.min.scss";
-@import "../../FU-static/variables.scss";
-@import "../../FU-static/mixins.scss";
+@import "fu-variables.scss";
 
 /* 1px and greater */
 @media only screen and (min-width: 1px) {
 
-  .frutiger-light {
-    font-family: 'FrutigerLTW01-45Light', sans-serif; 
+  body {
+    font-family: Arial, Helvetica, sans-serif
   }
 
   a {
@@ -25,7 +22,6 @@
     background-color: $superlightgrey;
     margin:10px;
     padding:20px;
-    /* Engagement Carousel */
     .carousel {
       position: relative;
       overflow: hidden;
@@ -101,10 +97,12 @@
         min-height: 28px;
       }
       a {
-        @include border-radius(4px);
+        border-radius: 4px;
         font-weight: 100;
         font-size: 20px;
         border:none;
+        background-color: $purple;
+        color:white;
       }
     }
 
