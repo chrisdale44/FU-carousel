@@ -12,12 +12,12 @@
     margin: 0 3px;
     padding: 0.4em 0.8em; }
 
-  .carousel-container {
+  .fu-carousel-container {
     max-width: 600px;
     background-color: #fafafa;
     margin: 10px;
     padding: 20px; }
-    .carousel-container .carousel {
+    .fu-carousel-container .carousel {
       position: relative;
       overflow: hidden;
       width: 100%;
@@ -26,7 +26,7 @@
       font-size: 0px;
       padding: 0;
       margin: 0; }
-      .carousel-container .carousel .slide {
+      .fu-carousel-container .carousel .slide {
         padding: 0;
         margin: 0;
         display: inline-block;
@@ -36,20 +36,20 @@
         max-width: 100%;
         line-height: 0;
         overflow: hidden; }
-        .carousel-container .carousel .slide div {
+        .fu-carousel-container .carousel .slide div {
           position: relative;
           width: 100%;
           min-width: 100%;
           max-width: 100%;
           line-height: 0;
           overflow: hidden; }
-          .carousel-container .carousel .slide div img {
+          .fu-carousel-container .carousel .slide div img {
             width: 100%;
             min-width: 100%;
             max-width: 100%;
             line-height: 0;
             vertical-align: top; }
-          .carousel-container .carousel .slide div .slide-heading {
+          .fu-carousel-container .carousel .slide div .slide-heading {
             position: absolute;
             margin: 0;
             padding: 10px;
@@ -58,38 +58,38 @@
             background-color: rgba(68, 68, 68, 0.6);
             -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
             bottom: 0; }
-            .carousel-container .carousel .slide div .slide-heading h2 {
+            .fu-carousel-container .carousel .slide div .slide-heading h2 {
               margin: 0;
               padding: 10px;
               font-size: 16px;
               color: white;
               white-space: normal; }
-              .carousel-container .carousel .slide div .slide-heading h2 a {
+              .fu-carousel-container .carousel .slide div .slide-heading h2 a {
                 color: white; }
-        .carousel-container .carousel .slide .slide-text {
+        .fu-carousel-container .carousel .slide .slide-text {
           position: relative;
           width: 100%;
           height: auto;
           line-height: normal; }
-          .carousel-container .carousel .slide .slide-text p {
+          .fu-carousel-container .carousel .slide .slide-text p {
             margin: 5px;
             padding: 0;
             font-size: 14px;
             white-space: normal; }
-    .carousel-container .carousel-nav {
+    .fu-carousel-container .carousel-nav {
       margin: 10px auto 0 auto;
       text-align: center; }
-      .carousel-container .carousel-nav .button {
+      .fu-carousel-container .carousel-nav .button {
         min-height: 28px; }
-      .carousel-container .carousel-nav a {
+      .fu-carousel-container .carousel-nav a {
         border-radius: 4px;
         font-weight: 100;
         font-size: 20px;
         border: none;
         background-color: #996699;
         color: white; }
-    .carousel-container input[type=radio] + label,
-    .carousel-container input[type=checkbox] + label {
+    .fu-carousel-container input[type=radio] + label,
+    .fu-carousel-container input[type=checkbox] + label {
       display: inline !important; } }
 
 /*# sourceMappingURL=carousel.css.map */

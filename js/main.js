@@ -7,7 +7,7 @@ requirejs.config({
 
 requirejs(['jquery'], function() {
     requirejs(['carousel'], function() {
-        var carousel = new Carousel($('.carousel'), $('.carousel-nav'), 2000, 5000);
+        var carousel = new Carousel($('.fu-carousel-container'), 2000, 5000);
 		carousel.init();
     });
 });
